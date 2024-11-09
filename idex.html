@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="Hoja estilo/idex.css">
+</head>
+<body>
+    <div class="encabezado">
+        <h1 id="inicio">CALCULADORA DE ÁREA</h1>
+        <h3>¿Quieres calcular el área de algunas figuras geometicas?</h3>
+    </div>
+    <div class="indice">
+        <a href="#rectangulo">Rectangulo</a> 
+        <a href="#triangulo">Triangulo</a> 
+        <a href="#rombo">Rombo</a> 
+        <a href="#cuadrado">Cuadrado</a> 
+        <a href="#paralelogramo">Paralelogramo</a> 
+        <a href="#trapecio">Trapecio</a> 
+        <a href="#romboide">Romboide</a> 
+        <a href="#poligonoRegular">Poligono Regular</a> 
+        <a href="#circulo">Circulo</a> 
+    </div>
+
+    <!--Rectangulo-->
+    <div class="containerRectangulo">
+        <div class="subEncabezadoRectangulo">
+            <h4 id="rectangulo">Rectangulo</h4>
+            <p>El área del rectángulo se obtine multiplicando la base "b" por la altura "a"</p>
+        </div>
+        <div class="inputRectangulo">
+            <input type="text" id="base_rectangulo" placeholder="Introduce la base">
+            <input type="text" id="altura_rectangulo" placeholder="Introduce la altura">
+            <input type="text" id="resultado_rectangulo" placeholder="El resultado es">
+            <input type="button" value="Calcula" onclick="rectangulo();">
+            <img src="imagenes/rectangulo.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    </div>
+    
+    <!--Triangulo-->
+    <div class="containerTriangulo">
+        <div class="subEncabezadoTriangulo">
+            <h4 id="triangulo">Triangulo</h4>
+            <p>Si al rectangulo anterior se le trza una diagonal queda dividido en 2 triangulos congruentes, el triangulo N1 y el triangulo N2. Por lo tanto el área de un triangulo se obtiene dividiendo el área del rectángulo por dos</p>
+        </div>
+        <div class="inputTriangulo">
+            <input type="text" id="base_triangulo" placeholder="Introduce la base">
+            <input type="text" id="altura_triangulo" placeholder="Introduce la altura">
+            <input type="text" id="resultado_triangulo" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="triangulo();">
+            <img src="imagenes/triangulo.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    
+    <!--Rombo-->
+    <div class="containerRombo">
+        <div class="subEncabezadoRombo">
+            <h4 id="rombo">Rombo</h4>
+            <p>Si por los vértices del rombo se traza segmentos paralelos a las diagonales mayor "D" y la diagonal "d" se forma un rectángulo de base "b" y la altura "a", en donde la base del rectángulo es igual a la diagonal manor y la altura es igual a la diagonal mayor</p>
+        </div>
+        <div class="inputRombo">
+            <input type="text" id="diagonalMayor" placeholder="Introduce la diagonal mayor">
+            <input type="text" id="diagonalMenor" placeholder="Introduce la diagonal menor">
+            <input type="text" id="resultado_rombo" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="rombo();">
+            <img src="imagenes/rombo.png.png">
+            <a href="#inicio">Volver</a>
+        </div>  
+    </div>
+    <!--Cuadrado-->  
+
+    <div class="containerCuadrado">
+        <div class="subEncabezadoCuadrado">
+            <h4 id="cuadrado">Cuadrado</h4>
+            <p>El cuadrado es un rectángulo con lados iguales es decir, es un ractángulo equilátero. La base "b" y la altura "a" son iguales al lado del cuadrado.</p>
+        </div>
+        <div class="inputCuadrado">
+            <input type="text" id="diagonalMayorCuadrado" placeholder="Introduce la diagonal mayor">
+            <input type="text" id="diagonalMenorCuadrado" placeholder="Introduce la diagonal menor">
+            <input type="text" id="resultado_cuadrado" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="cuadrado();">
+            <img src="imagenes/cuadrado.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    </div> 
+
+    <!--Paralelogramo-->
+    <div class="containerParalelogramo">
+        <div class="subEncabezadoParalelogramo">
+            <h4 id="paralelogramo">Paralelogramo</h4>
+            <p>Transportando el área del triangulo de la parte izquierda a la derecha del paralelogramo, éste se transforma en un rectángulo</p>
+        </div>
+        <div class="inputParalelogramo">
+            <input type="text" id="baseParalelogramo" placeholder="Introduce la base">
+            <input type="text" id="alturaParalelogramo" placeholder="Introduce la altura">
+            <input type="text" id="resultado_paralelogramo" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="paralelogramo();">
+            <img src="imagenes/paralelogramo.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    </div>
+
+    <!--Trapecio-->
+    <div class="containerTrapecio">
+        <div class="subEncabezadoTrapecio">
+            <h4 id="trapecio">Trapecio</h4>
+            <p>Transportando la distancia de la Base Mayor y de la base menor, el trapecio anterior se transforma en un paralelogramo cuya área es el doble del mismo</p>
+        </div>
+        <div class="inputTrapecio">
+            <input type="text" id="baseMayor" placeholder="Introduce la base Mayor">
+            <input type="text" id="baseMenor" placeholder="Introduce la base Menor">
+            <input type="text" id="alturaTrapecio" placeholder="Introduce la Altura">
+            <input type="text" id="resultado_trapecio" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="trapecio();">
+            <img src="imagenes/trapecio.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    </div> 
+
+    <!--Romboide-->
+    <div class="containerRomboide">
+        <div class="subEncabezadoRomboide">
+            <h4 id="romboide">Romboide</h4>
+            <p>El romboide tiene sus lados contiguos iguales, es una epecie de rombo alargado. Su área es igual al área del rombo</p>
+        </div>
+        <div class="inputRomboide">
+            <input type="text" id="diagonalMayorRomboide" placeholder="Introduce la diagonal mayor">
+            <input type="text" id="diagonalMenorRomboide" placeholder="Introduce la diagonal menor">
+            <input type="text" id="resultado_romboide" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="romboide();">
+            <img src="imagenes/romboide.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    </div>
+
+    <!--Poligono regular-->
+    <div class="containerPoligonoRegular">
+        <div class="subEncabezadoPoligonoRegular">
+            <h4 id="poligonoRegular">Poligono Regular</h4>
+            <p>Donde la base es igual al perímetro del poligono regular y la altura es igual al apotema. Por lo tanto el área del paralelogramo dividido por 2</p>
+        </div>
+        <div class="inputPoligonoRegular">
+            <input type="text" id="perimetro" placeholder="Introduce el perimetro">
+            <input type="text" id="apotema" placeholder="Introduce la apotema">
+            <input type="text" id="resultado_poligonoRegular" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="poligonoRegular();">
+            <img src="imagenes/poligono_regular.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    </div>
+    <!--Circulo-->
+    <div class="containerCirculo">
+        <div class="subEncabezadoCirculo">
+            <h4 id="circulo">Círculo</h4>
+            <p>El cículo es un polígono regular de infinitos lados, en donde el radio representa la apotema. Por lo tanto el área el círculo es igual al área del poligono regular</p>
+        </div>
+        <div class="inputCirculo">
+            <input type="text" id="radio" placeholder="Introduce el area">
+            <input type="text" id="resultado_circulo" placeholder="El resultado es">
+            <input type="button"  value="Calcula" onclick="circulo();">
+            <img src="imagenes/circulo.png.png">
+            <a href="#inicio">Volver</a>
+        </div>
+    </div>
+</body>
+
+<!--Funciones-->
+<script type="text/javascript">
+    var altura; 
+    var base; 
+    var resultado;
+    var diagonalMayor; 
+    var diagonalMenor; 
+    var baseMayor; 
+    var baseMenor; 
+    var perimetro; 
+    var apotema;
+    var radio;
+    var area;
+    
+    function rectangulo(){
+        base= parseInt(document.getElementById('base_rectangulo').value);
+        altura= parseInt(document.getElementById('altura_rectangulo').value);
+        document.getElementById('resultado_rectangulo').value=base*altura; 
+        
+    }
+    function triangulo(){
+        base=parseInt(document.getElementById('base_triangulo').value); 
+        altura=parseInt(document.getElementById('altura_triangulo').value);
+        resultado= (base*altura) /2;
+        document.getElementById('resultado_triangulo').value=resultado;
+    }
+
+    function rombo(){
+        diagonalMayor=parseInt(document.getElementById('diagonalMayor').value); 
+        diagonalMenor=parseInt(document.getElementById('diagonalMenor').value); 
+        resultado=(diagonalMayor*diagonalMenor) /2;
+        document.getElementById('resultado_rombo').value=resultado;
+    }
+
+    function cuadrado(){
+        diagonalMayor=parseInt(document.getElementById('diagonalMayorCuadrado').value); 
+        diagonalMenor=parseInt(document.getElementById('diagonalMenorCuadrado').value); 
+        resultado=(diagonalMayor*diagonalMenor) /2;
+        document.getElementById('resultado_cuadrado').value=resultado;
+    }
+
+    function paralelogramo(){
+        base=parseInt(document.getElementById('baseParalelogramo').value); 
+        altura=parseInt(document.getElementById('alturaParalelogramo').value); 
+        document.getElementById('resultado_paralelogramo').value=base*altura;
+    }
+
+    function trapecio(){
+        baseMayor=parseInt(document.getElementById('baseMayor').value); 
+        baseMenor=parseInt(document.getElementById('baseMenor').value);
+        altura=parseInt(document.getElementById('alturaTrapecio').value);
+        resultado=(baseMayor+baseMenor)*altura /2;
+        document.getElementById('resultado_trapecio').value=resultado;
+    }
+
+    function romboide(){
+        diagonalMayor=parseInt(document.getElementById('diagonalMayorRomboide').value);
+        diagonalMenor=parseInt(document.getElementById('diagonalMenorRomboide').value); 
+        resultado= (diagonalMayor*diagonalMenor) /2; 
+        document.getElementById('resultado_romboide').value=resultado;
+    }
+
+    function poligonoRegular(){
+        perimetro=parseInt(document.getElementById('perimetro').value); 
+        apotema=parseInt(document.getElementById('apotema').value); 
+        resultado=(perimetro*apotema) /2; 
+        document.getElementById('resultado_poligonoRegular').value=resultado;
+    }
+
+    function circulo(){
+        radio=parseInt(document.getElementById('radio').value); 
+        area=Math.PI * Math.pow(radio,2);
+        document.getElementById('resultado_circulo').value=area;
+    }
+</script>
+</html>

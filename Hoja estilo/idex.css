@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #dfdfdf;
+    font-family: 'Poppins', sans-serif;
+}
+.encabezado{
+    text-align:center;
+    font-size: 25px;
+}
+.indice{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    margin: 5px;
+}
+/*-------------------------*/
+.containerRectangulo{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin: auto;
+}
+.subEncabezadoRectangulo p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoRectangulo h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputRectangulo input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputRectangulo input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputRectangulo img{
+    height: 150px;
+    display: flex;
+    padding: 40px 150px;
+}
+/*-------------------------*/
+.containerTriangulo{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 535px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoTriangulo p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoTriangulo h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputTriangulo input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputTriangulo input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputTriangulo img{
+    height: 150px;
+    display: flex;
+    padding: 30px 125px;
+}
+/*--------------------  */   
+.containerRombo{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 565px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoRombo p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoRombo h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputRombo input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputRombo input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputRombo img{
+    height: 150px;
+    display: flex;
+    padding: 30px 120px;
+}
+/*-------------------------------*/
+.containerCuadrado{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoCuadrado p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoCuadrado h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputCuadrado input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputCuadrado input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputCuadrado img{
+    height: 150px;
+    display: flex;
+    padding: 30px 125px;
+}
+/*-----------------------------*/
+.containerParalelogramo{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoParalelogramo p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoParalelogramo h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputParalelogramo input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputParalelogramo input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputParalelogramo img{
+    height: 150px;
+    display: flex;
+    padding: 30px 125px;
+}
+/*-------------------*/
+.containerTrapecio{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 550px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoTrapecio p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoTrapecio h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputTrapecio input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputTrapecio input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputTrapecio img{
+    height: 150px;
+    display: flex;
+    padding: 30px 125px;
+}
+/*-----------------*/
+.containerRomboide{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 520px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoRomboide p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoRomboide h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputRomboide input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputRomboide input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputRomboide img{
+    height: 150px;
+    display: flex;
+    padding: 30px 125px;
+}
+/*-----------------*/
+.containerPoligonoRegular{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoPoligonoRegular p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoPoligonoRegular h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputPoligonoRegular input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputPoligonoRegular input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputPoligonoRegular img{
+    height: 150px;
+    display: flex;
+    padding: 30px 125px;
+}
+/*----------------------*/
+.containerCirculo{
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    height: 500px;
+    border-radius: 8px;
+    margin: auto;
+}
+.subEncabezadoCirculo p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.subEncabezadoCirculo h4{
+    font-size: 40px; 
+    margin-top: 20px;
+    color: white;
+}
+.inputCirculo input[type="text"]{
+    width: 150px;
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.inputCirculo input[type="button"]{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.inputCirculo img{
+    height: 150px;
+    display: flex;
+    padding: 30px 125px;
+}
